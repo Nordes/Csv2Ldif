@@ -1,0 +1,12 @@
+# ldapmodify -a -x -h localhost -p 389 -D "cn=admin,dc=contoso,dc=com" -f 00-startup.ldif -w myFavoritePassword -c
+# Could generate fake data : http://ldapwiki.com/wiki/LDIF%20Generator
+
+dn: ou=users, dc=contoso,dc=com
+ou: users
+description: All people in organisation
+objectclass: organizationalunit
+
+dn: ou=groups, dc=contoso,dc=com
+ou: groups
+description: All Groups in organisation
+objectclass: organizationalunit
