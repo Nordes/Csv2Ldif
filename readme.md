@@ -4,7 +4,7 @@ Create ldif from csv and the LDIF can be used with the basic OpenLDAP.
 Value: `P@ss1W0Rd!`
 
 # Help
-```bash
+```text
 Usage: index.js <inputCsvFile.csv> [options]
 
 Options:
