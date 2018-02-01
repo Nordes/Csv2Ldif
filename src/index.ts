@@ -3,7 +3,7 @@ import fs = require("fs");
 import yargv = require("yargs");
 
 const argv = yargv
-  .usage("Usage: $0 <command> [options]")
+  .usage("Usage: $0 <inputCsvFile.csv> [options]")
   // tslint:disable-next-line:max-line-length
   .example("$0 -o outputBaseName", "Output the results from the csv into the 'outputBaseName' (01-outputBaseName-groups.ldif & 02-outputBaseName-users.ldif) files")
   .alias("o", "output")

@@ -3,6 +3,32 @@ Create ldif from csv and the LDIF can be used with the basic OpenLDAP.
 # Default password
 Value: `P@ss1W0Rd!`
 
+# Help
+```bash
+Usage: index.js <inputCsvFile.csv> [options]
+
+Options:
+  --help            Show help                                          [boolean]
+  --version         Show version number                                [boolean]
+  -o, --output      Output file                              [default: "output"]
+  --bdn, --baseDN   Base dn (i.e.: dc=contoso,dc=com)
+                                                  [default: "dc=contoso,dc=com"]
+  -u, --users       Users OU before the base dn. (i.e.: ou=users)
+                                                           [default: "ou=users"]
+  -g, --groups      Groups OU before the base dn. (i.e.: ou=groups)
+                                                          [default: "ou=groups"]
+  --hp, --password  Default hashed password for the users. If not set,
+                    P@ss1W0Rd! will be used
+                                  [default: "{SHA}RKkNn7+KoG94IN3x/B2jnm/4DS0="]
+  -s, --seed        The see used to generate the gidNumber and uidNumber.
+                                                                [default: 70000]
+
+Examples:
+  index.js -o outputBaseName  Output the results from the csv into the
+                              'outputBaseName' (01-outputBaseName-groups.ldif &
+                              02-outputBaseName-users.ldif) files
+```
+
 # Output
 | File | Desc. |
 | ---- | ----- |
