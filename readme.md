@@ -29,11 +29,16 @@ Examples:
                               02-outputBaseName-users.ldif) files
 ```
 
-# Output
+# Example
+## Output
 | File | Desc. |
 | ---- | ----- |
 | 01-`filePrefix`-groups.ldif | Generation for the groups |
 | 02-`filePrefix`-users.ldif | Generation for the user and also do the membership with the groups |
+
+## Example: Once imported
+
+![image](https://user-images.githubusercontent.com/446572/35681705-99522d7c-07a1-11e8-9a25-c8a2e2e09f68.png)
 
 # Stuff to look
 - Some picture data could be available 
