@@ -1,0 +1,102 @@
+# ldapmodify -a -x -h localhost -p 389 -D "cn=admin,dc=contoso,dc=com" -f test2.ldif -c -w [YOUR Admin Password]
+dn: cn=Executive,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Executive
+uniqueMember: cn=Executive,ou=groups,dc=contoso,dc=com
+description: Executive
+
+dn: cn=Operations,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Operations
+uniqueMember: cn=Operations,ou=groups,dc=contoso,dc=com
+description: Operations
+
+dn: cn=Project Management,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Project Management
+uniqueMember: cn=Project Management,ou=groups,dc=contoso,dc=com
+description: Project Management
+
+dn: cn=Engineering,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Engineering
+uniqueMember: cn=Engineering,ou=groups,dc=contoso,dc=com
+description: Engineering
+
+dn: cn=Accounting,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Accounting
+uniqueMember: cn=Accounting,ou=groups,dc=contoso,dc=com
+description: Accounting
+
+dn: cn=Sales,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Sales
+uniqueMember: cn=Sales,ou=groups,dc=contoso,dc=com
+description: Sales
+
+dn: cn=Human Resources,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Human Resources
+uniqueMember: cn=Human Resources,ou=groups,dc=contoso,dc=com
+description: Human Resources
+
+dn: cn=Strategy Consulting,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Strategy Consulting
+uniqueMember: cn=Strategy Consulting,ou=groups,dc=contoso,dc=com
+description: Strategy Consulting
+
+dn: cn=Sales Engagement Management,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Sales Engagement Management
+uniqueMember: cn=Sales Engagement Management,ou=groups,dc=contoso,dc=com
+description: Sales Engagement Management
+
+dn: cn=Senior Management,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Senior Management
+uniqueMember: cn=Senior Management,ou=groups,dc=contoso,dc=com
+description: Senior Management
+
+dn: cn=Marketing,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Marketing
+uniqueMember: cn=Marketing,ou=groups,dc=contoso,dc=com
+description: Marketing
+
+dn: cn=Content Management Consulting,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Content Management Consulting
+uniqueMember: cn=Content Management Consulting,ou=groups,dc=contoso,dc=com
+description: Content Management Consulting
+
+dn: cn=Engineering Operations,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Engineering Operations
+uniqueMember: cn=Engineering Operations,ou=groups,dc=contoso,dc=com
+description: Engineering Operations
+
+dn: cn=CRM Strategy,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: CRM Strategy
+uniqueMember: cn=CRM Strategy,ou=groups,dc=contoso,dc=com
+description: CRM Strategy
+
+dn: cn=Creative,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: Creative
+uniqueMember: cn=Creative,ou=groups,dc=contoso,dc=com
+description: Creative
+
+dn: cn=1099 Contractor,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: 1099 Contractor
+uniqueMember: cn=1099 Contractor,ou=groups,dc=contoso,dc=com
+description: 1099 Contractor
+
+dn: cn=CVP of IT,ou=groups,dc=contoso,dc=com
+objectClass: groupOfUniqueNames
+cn: CVP of IT
+uniqueMember: cn=CVP of IT,ou=groups,dc=contoso,dc=com
+description: CVP of IT
