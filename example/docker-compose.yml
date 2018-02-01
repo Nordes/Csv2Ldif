@@ -1,0 +1,13 @@
+ ldap:
+    image: osixia/openldap:latest
+    ports: 
+      - "389:389"
+      - "636:636"
+    env_file:
+      - ./docker-openLdap.env
+    volumes:
+      # - ./dockerData/ldap/seed.1.ldif:/container/service/slapd/assets/config/bootstrap/ldif/something.ldif
+      - ./dockerData/ldap/:/data/ldif
+    command: 
+      # - ... load 01-output...
+      # - ... load 02-output... 
