@@ -43,3 +43,5 @@ Examples:
 # Stuff to look
 - Some picture data could be available 
   - https://mrhodes.net/2011/10/25/adding-285-contoso-users-with-pictures-to-your-development-environment-active-directory/
+- Mock the fs
+  - https://github.com/tschaub/mock-fs/tree/master (Last release branch maybe)
